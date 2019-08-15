@@ -68,6 +68,8 @@ while(True):
         time.sleep(20)
         wks = gc.open(localtime).sheet1
         setup_new_worksheet()
+        humidity, temperature = Adafruit_DHT.read_retry(sensor, pin) 
+        wks.append_row([str(new_time()), str(temperature), str(humidity)])
         day = time.localtime(time.time())[2]
                                  
     if(new_hour() and hour != time.localtime(time.time())[3]):
