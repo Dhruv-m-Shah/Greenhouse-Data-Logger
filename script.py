@@ -12,7 +12,7 @@ humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 
 #Set scope and credentials for google sheets
 scope= ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('greenhouse-506f0f5ea30a.json', scope) #Make service account from google API keys console and download .json credential file
+credentials = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope) #Make service account from google API keys console and download .json credential file
 gc = gspread.authorize(credentials)
 #END set scope and credentials for google sheets
 
