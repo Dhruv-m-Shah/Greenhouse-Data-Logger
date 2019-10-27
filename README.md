@@ -1,4 +1,4 @@
-# Greenhouse Data Loggoer
+# Greenhouse Data Logger
 
 Used a Raspberry Pi and Google's Drive API to make a temperature and humidity data logger for my friend's backyard greenhouse.
 
@@ -32,7 +32,7 @@ sudo pip3 install oauth2client
 
 Data will be logged on a google drive spreadsheet every hour(log timing can be set to your preference by modifying while loop in script.py). Every 24 hours a new google drive spreadsheet is created for recording the temperature and humidity for that day.
 
-## Device in action
+## Device in Action
 ![DSC_0592](https://user-images.githubusercontent.com/42727015/63071603-f2b53800-beed-11e9-8729-f1886ba204f8.JPG)
 ![DSC_0606](https://user-images.githubusercontent.com/42727015/63071746-7a02ab80-beee-11e9-9d16-2113809b0d4e.JPG)
 ![DSC_0608](https://user-images.githubusercontent.com/42727015/63071907-204eb100-beef-11e9-9403-30da0b6c3d11.JPG)
