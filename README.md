@@ -51,4 +51,4 @@ Data will be logged on a google drive spreadsheet every hour(log timing can be s
 
 ## Acknowledgments
 
-* I would like to thank Kaveen Jayawardane for allowing me to incorporate a data logger for his greenhouse. Check out his [website](https://www.thesamakamicollection.org/).
+* I would like to thank Kaveen Jayawardane for allowing me to incorporate a data logger for his greenhouse.
